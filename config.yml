@@ -1,0 +1,26 @@
+bungee:
+  enable: false
+  hubName: hub
+options:
+  minPlayers: 5
+  autoStartTimer: 15
+  gameCycleTimer: 30
+  closeTimerSec: 5
+locations:
+  worldName: world
+  spawn: -8.197, 93.75462, 10.552, -179.6, 5.4
+  gameSpawn: -36.388, 39.35992, 14.042, 178.0, 10.6
+messages:
+  prefix: "&c[TntTag]"
+  joinMessage: "<player> &ejoined the game ! <<size>/<maxsize>>"
+  quitMessage: "<player> &e left !"
+  subStartTitle: "&e<timer>"
+  startTitle: "Bon Jeu !"
+  boomMessage: "&cBoom !!!"
+  winnerMessage: "<player> &cgagne le jeu !"
+  tabListTagged: "&c[IT] "
+  hitMessage: "<player>&c is it !"
+  deathMessage: "<player>&c&l elimine !"
+  hitChange: "&cVous avez ete Tag !"
+  hasStarted: "&eLe Jeu a déjà commencé"
+  chatFormat: "&7<player> &e>&r <message>"
